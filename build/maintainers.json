@@ -2058,6 +2058,9 @@
   "/fjksbm/:category?": [
     "nczitzk"
   ],
+  "/flashcat/blog": [
+    "chesha1"
+  ],
   "/flyert/creditcard/:bank": [
     "nicolaszf"
   ],
@@ -2128,6 +2131,9 @@
   "/ftchinese/:language/:channel?": [
     "HenryQW",
     "xyqfer"
+  ],
+  "/ftm/": [
+    "dzx-dzx"
   ],
   "/fuliba/latest": [
     "shinemoon"
@@ -2444,6 +2450,9 @@
   ],
   "/gov/jinan/healthcommission/medical_exam_notice": [
     "tzjyxb"
+  ],
+  "/gov/lswz/:category{.+}?": [
+    "nczitzk"
   ],
   "/gov/maoming/*": [],
   "/gov/maonan/:category": [
@@ -4121,7 +4130,7 @@
   "/newsmarket/:category?": [
     "nczitzk"
   ],
-  "/newyorker/:category/:subCategory?": [
+  "/newyorker/:category": [
     "EthanWng97"
   ],
   "/newzmz/:id?/:downLinkType?": [
@@ -6055,6 +6064,9 @@
   ],
   "/topys/:keyword?": [
     "nczitzk"
+  ],
+  "/towardsdatascience/latest": [
+    "mintyfrankie"
   ],
   "/tradingview/blog/:category{.+}?": [],
   "/tradingview/desktop": [
