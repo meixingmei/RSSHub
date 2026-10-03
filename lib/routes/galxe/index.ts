@@ -1,10 +1,10 @@
-import { Route } from '@/types';
-import { parseDate } from '@/utils/parse-date';
+import type { Route } from '@/types';
 import ofetch from '@/utils/ofetch';
+import { parseDate } from '@/utils/parse-date';
 
 export const route: Route = {
     path: '/quest/:alias',
-    name: 'Galxe',
+    name: 'Quest',
     url: 'app.galxe.com',
     maintainers: ['cxheng315'],
     example: '/galxe/quest/MissionWeb3',
@@ -45,7 +45,7 @@ async function handler(ctx) {
                     listType: 'Newest',
                 },
             },
-            query: `
+            query: /* GraphQL */ `
                 query BrowseSpaceCampaigns($id: Int, $alias: String, $campaignInput: ListCampaignInput!) {
                     space(id: $id, alias: $alias) {
                         id
